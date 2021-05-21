@@ -1,0 +1,159 @@
+@font-face {
+	font-family: circe-light;
+	src: url("../font/circe-light.otf") format("truetype");
+}
+
+@font-face {
+	font-family: circe-regular;
+	src: url("../font/circe-regular.otf") format("truetype");
+}
+
+@font-face {
+	font-family: circe-bold;
+	src: url("../font/circe-bold.otf") format("truetype");
+}
+
+@font-face {
+	font-family: Open-Sans;
+	src: url("../font/OpenSans-Regular.ttf") format("truetype");
+}	
+@font-face {
+	font-family: Open-Sans-Bold;
+	src: url("../font/OpenSans-ExtraBold.ttf") format("truetype");
+}	
+	body{
+		background-color:#fff;
+		margin: 0%;
+	}
+	
+	.fondo{
+		background: url(../img/Captura\ de\ pantalla\ de\ 2021-05-13\ 19-32-45.png);
+    	background-repeat:   no-repeat;
+		background-size: contain;
+		background-position-x: left;
+		background-position-y: bottom;
+		margin-left: 8%;
+
+	}
+	.gomoku{
+		cursor:pointer;
+		display:block;
+		margin:40px 30px 40px auto;
+		box-shadow:5px 5px 5px #B9B9B9,-2px -2px 2px #efefef;
+	}
+	
+	div>a{
+		cursor:pointer;
+		font-family:"Song Ti";
+		color:#fff;
+		padding:10px 20px;
+		background-color:#F3F;
+		border-radius:7%;
+	}
+	.titulo {
+	text-align:center;
+	font-family: circe-regular;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 25px;
+	line-height: 29px;
+	color: #000000;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	}
+
+	.columna-derecha{
+		margin: auto 0px;
+	}
+
+	button{
+		display: block;
+		color: #ffffff;
+		background-color: #52AE32;
+		border-color: #52AE32;
+		margin: 10px auto;
+		text-align: center;
+		font-family: Open-Sans;
+		font-size: 14px;
+		border: none;
+		border-radius: 0.25rem;
+		padding: 6px 12px;
+		
+	}
+
+
+	/* Footer*/
+	.footer{
+		border-top: 4px solid #52AE32;
+		background-color: #004874;
+		position: fixed;
+  		bottom: 0;
+		width: 100%;
+		text-align: center;
+	}
+	.division-logo{
+		display: inline-block;
+	}
+	/*img.logo-footer{
+		position: absolute;
+		bottom: 2px;
+	}*/
+	.logo-footer{
+		width: 200px;
+	}
+	.division-hackathon{
+		display: inline-block;
+		border-left: 1px solid #fff;
+		color: #fff;
+		margin: 5px 5px 10px 5px;
+		font-family: Open-Sans;
+	}
+	.hackathon{
+		margin: 5px 10px 0px 10px;
+		font-family: Open-Sans-Bold;
+		text-align: left;
+	}
+	.academy{
+		margin: 0px 10px 5px 10px;
+	}
+
+
+	.basic {
+		display: grid;
+		grid-template-columns: 4fr 2fr;
+		grid-template-areas:
+			"header header header header"
+			".      nav    main   .     "
+			"footer footer footer footer";
+	}
+	.resultado{
+		text-align: center;
+		font-family: Open-Sans;
+		font-size: 20px;
+	}
+
+	
+	#resultadoYo h3 {
+		display: inline-block;
+		margin: 0px 10px;
+		color: #4692FA;
+	}
+	#separador h3 {
+		display: inline-block;
+		margin: 0px 10px;
+	}
+	#resultadoAi h3 {
+		display: inline-block;
+		margin: 0px 10px;
+		color : #FF0000;
+	}
+	#TU h3{
+		display: inline-block;
+		margin: 10px 20px 50px 20px;
+		color: #4692FA;
+	}
+	#AI h3{
+		display: inline-block;
+		margin: 10px 20px 50px 20px;
+		color : #FF0000;
+	}
